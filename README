@@ -1,0 +1,18 @@
+pytorito.py
+
+A small program designed to extract the first boot record from a bootable
+'El Torito' CD-ROM. This was one of my early attempts to learn Python, an
+filled a purpose when I was looking for a way to create slipstreamed Windows
+XP installation disks using Linux.
+
+El Torito Boot Record Extractor
+
+Extracts first boot record from bootable 'El Torito' CD-ROM.
+Writes boot record to stdout unless -o, --outfile option specified.
+
+Usage: python pytorito.py [OPTIONS]... SOURCE
+
+Options:
+      --help              show this help
+  -i, --info              show information about the boot record
+  -o ..., --outfile=...   write boot record to specified file
